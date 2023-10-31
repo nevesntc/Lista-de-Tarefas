@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <title>Contador de Caracteres</title>
+</head>
+
+<body>
+    <div class="background" id="inicio">
+        <header>
+            <ul>
+                <li>
+                    <a href="index.html#inicio">Início</a>
+                    <a href="index.html#lista">Lista</a>
+                </li>
+            </ul>
+        </header>
+    </div> <!--background-->
+    <section id="oquefazer">
+        <h1>6 Melhores coisas para fazer em Miami?</h1>
+        <div id="todoList">
+            <input type="text" id="task" placeholder="Digite uma tarefa" onkeydown="handleKeyDown(event)">
+            <button onclick="addTask()">Adicionar</button>
+            <ul id="taskList"></ul>
+        </div>
+    </section>
+    <footer>
+        <div class="InformaçõesAdicionais">
+            <p>Copyright @ Bruno Neves</p>
+        </div>
+    </footer>
+</body>
+</html>
